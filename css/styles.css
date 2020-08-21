@@ -1,0 +1,297 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  color: #999;
+  background: #fff;
+}
+
+#headerContainer {
+  max-width: 990px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+#headerLeft {
+  float: left;
+  margin-top: 35px;
+}
+
+#myName h1 {
+  margin-top: 0px;
+  margin-bottom: 3px;
+  color: #333;
+}
+
+#myAka h2 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 23px;
+}
+
+#myInfo ul {
+  display: table;
+  padding-left: 0px;
+  margin-top: 0px;  
+}
+
+#myInfo li {
+  display: table-cell;
+  list-style: none;
+  font-weight: normal;
+}
+
+#myInfo a {
+  text-decoration: none;
+  color: #999;
+  font-size: 13px;
+  margin-right: 20px;
+}
+
+#myInfo a:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+#myInfo .fa{
+  margin-right: 5px;
+}
+
+#headerRight {
+  float: right;
+}
+
+#myImage .fa{
+  margin-right: 10px;
+}
+
+#myImage img {
+  border-radius: 50%;
+  border: 1px solid #999;
+}
+
+#contentContainer {
+  max-width: 990px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#contentLeft {
+  float: left;
+  width: 50%;
+  margin-right: 20px;
+}
+
+.contentTitle h2{
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #333;
+}
+
+.myJob {
+  border-bottom: 1px dotted #333;
+  margin-bottom: 10px;
+}
+
+.jobPosition {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.company {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 18px;
+}
+
+.jobInfo {
+  overflow: hidden;
+}
+
+.jobInfo p {
+  float: left;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.jobInfo .fa {
+  margin-right: 5px;
+}
+
+.jobDescription ul {
+  padding-left: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.jobDescription li {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+#contentRight {
+  float: right;
+  width: 40%;
+}
+
+.contentLP{
+  margin-bottom: 30px;
+}
+
+.contentLP ul {
+  padding-left: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.contentLP li {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.contentMPO {
+  overflow: hidden;
+  border-bottom: 1px dotted #333;
+  margin-bottom: 10px;
+}
+
+.mpoLeft {
+  float: left;
+  width: 5%;
+  text-align: left;
+}
+
+.mpoLeft .fa {
+  margin-top: 3px;
+}
+
+.mpoRight {
+  float: right;
+  width: 93%;
+}
+
+.mpoRightTitle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.mpoRightText {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.mostProudOfGroup {
+  margin-bottom: 30px;
+}
+
+.contentStrengths{
+  margin-bottom: 30px;
+}
+
+.contentStrengths p {
+  font-size: 13px;
+  border: 1px solid #999;
+  display: inline-block;
+  padding: 2px 3px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.strengthsTop {
+  border-bottom: 1px dotted #333;
+  padding-bottom: 10px;
+}
+
+.strengthsBottom {
+  padding-top: 10px;
+}
+
+.contentLg{
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-bottom: 1px dotted #999;
+}
+
+.lgLeft {
+  float: left;
+  width: 30%;
+}
+
+.lgTitle {
+  margin-top: 5px;
+}
+
+.lgTitle p {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.lgRight {
+  float: right;
+  width: 70%;
+}
+
+.lgSkill {
+  text-align: center;
+  padding-top: 2px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.circleA{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #333;
+}
+
+.circleB{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #777;
+}
+
+.languagesSpace {
+  margin-bottom: 30px;
+}
+
+.edPlace {
+  border-bottom: 1px dotted #777;
+  padding-bottom: 10px;
+}
+
+.edCourse {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.edSchool {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.edDate {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.edDate .fa {
+  margin-right: 5px;
+}
